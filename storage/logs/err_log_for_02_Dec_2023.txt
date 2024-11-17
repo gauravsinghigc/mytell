@@ -1,0 +1,253 @@
+[02-Dec-2023 14:59:50 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\sys\auth\logout\index.php on line 4
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(../..//include/app/Header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 33
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 33
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(../..//include/sidebar/get-side-menus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 34
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/sidebar/get-side-menus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 34
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(../..//include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 35
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 35
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(../..//include/app/Footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 161
+[02-Dec-2023 15:07:24 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 161
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(../..//include/app/Header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 33
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 33
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(../..//include/sidebar/get-side-menus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 34
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/sidebar/get-side-menus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 34
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(../..//include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 35
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 35
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(../..//include/app/Footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\index.php on line 161
+[02-Dec-2023 15:07:45 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\index.php on line 161
+[02-Dec-2023 15:10:03 Asia/Calcutta] PHP Warning:  Attempt to read property "config_mail_sender_id" on array in C:\xampp\htdocs\sys\app\settings\mail-settings.php on line 119
+[02-Dec-2023 15:10:03 Asia/Calcutta] PHP Warning:  Attempt to read property "config_mail_sender_host" on array in C:\xampp\htdocs\sys\app\settings\mail-settings.php on line 123
+[02-Dec-2023 15:10:03 Asia/Calcutta] PHP Warning:  Attempt to read property "config_mail_sender_username" on array in C:\xampp\htdocs\sys\app\settings\mail-settings.php on line 127
+[02-Dec-2023 15:10:03 Asia/Calcutta] PHP Warning:  Attempt to read property "config_mail_sender_password" on array in C:\xampp\htdocs\sys\app\settings\mail-settings.php on line 132
+[02-Dec-2023 15:10:03 Asia/Calcutta] PHP Warning:  Attempt to read property "config_mail_sender_port" on array in C:\xampp\htdocs\sys\app\settings\mail-settings.php on line 142
+[02-Dec-2023 15:10:10 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.config_locations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM c...')
+#2 C:\xampp\htdocs\sys\app\settings\location-settings.php(63): SET_SQL('SELECT * FROM c...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php on line 12
+[02-Dec-2023 15:10:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configs' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM c...')
+#2 C:\xampp\htdocs\sys\app\settings\app-settings.php(63): SET_SQL('SELECT * FROM c...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php on line 12
+[02-Dec-2023 15:11:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configs' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM c...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(42): SELECT('SELECT * FROM c...')
+#2 C:\xampp\htdocs\sys\app\settings\app-settings.php(63): SET_SQL('SELECT * FROM c...', true)
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php on line 12
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:12:26 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  foreach() argument must be of type array|object, string given in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 66
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:21 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 81
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigsId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigGroupName" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 83
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 141
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigReferenceId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 142
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 145
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 151
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 159
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueId" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 162
+[02-Dec-2023 15:14:32 Asia/Calcutta] PHP Warning:  Attempt to read property "ConfigValueDetails" on array in C:\xampp\htdocs\sys\app\settings\app-settings.php on line 188
+[02-Dec-2023 15:16:28 Asia/Calcutta] PHP Warning:  include(../..//include/forms/Add-New-Office-Locations.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 128
+[02-Dec-2023 15:16:28 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/forms/Add-New-Office-Locations.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 128
+[02-Dec-2023 15:16:28 Asia/Calcutta] PHP Warning:  include(../..//include/app/Footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 129
+[02-Dec-2023 15:16:28 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 129
+[02-Dec-2023 15:16:33 Asia/Calcutta] PHP Warning:  include(../..//include/forms/Add-New-Office-Locations.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 128
+[02-Dec-2023 15:16:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/forms/Add-New-Office-Locations.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 128
+[02-Dec-2023 15:16:33 Asia/Calcutta] PHP Warning:  include(../..//include/app/Footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 129
+[02-Dec-2023 15:16:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 129
+[02-Dec-2023 15:21:26 Asia/Calcutta] PHP Warning:  Undefined array key "CurrentFile" in C:\xampp\htdocs\sys\handler\SystemController\ConfigController.php on line 127
+[02-Dec-2023 15:21:26 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.systemlogs' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php:22
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php(22): mysqli_query(Object(mysqli), 'INSERT INTO sys...')
+#1 C:\xampp\htdocs\sys\handler\SystemController\ConfigController.php(130): GENERATE_APP_LOGS('LOGO_CHANGED', '', 'LOGO_UPDATED')
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php on line 22
+[02-Dec-2023 15:25:33 Asia/Calcutta] PHP Warning:  include(../..//include/forms/Add-New-Office-Locations.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 128
+[02-Dec-2023 15:25:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/forms/Add-New-Office-Locations.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 128
+[02-Dec-2023 15:25:33 Asia/Calcutta] PHP Warning:  include(../..//include/app/Footer.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 129
+[02-Dec-2023 15:25:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Footer.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\location-settings.php on line 129
+[02-Dec-2023 16:06:33 Asia/Calcutta] PHP Warning:  include(../..//include/app/Header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:06:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:06:33 Asia/Calcutta] PHP Warning:  include(../..//include/sidebar/get-side-menus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:06:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/sidebar/get-side-menus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:06:33 Asia/Calcutta] PHP Warning:  include(../..//include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:06:33 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:06:40 Asia/Calcutta] PHP Warning:  include(../..//include/app/Header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:06:40 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:06:40 Asia/Calcutta] PHP Warning:  include(../..//include/sidebar/get-side-menus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:06:40 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/sidebar/get-side-menus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:06:40 Asia/Calcutta] PHP Warning:  include(../..//include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:06:40 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:07:01 Asia/Calcutta] PHP Warning:  include(../..//include/app/Header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:07:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:07:01 Asia/Calcutta] PHP Warning:  include(../..//include/sidebar/get-side-menus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:07:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/sidebar/get-side-menus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:07:01 Asia/Calcutta] PHP Warning:  include(../..//include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:07:01 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:09:52 Asia/Calcutta] PHP Warning:  include(../..//include/app/Header.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:09:52 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Header.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 33
+[02-Dec-2023 16:09:52 Asia/Calcutta] PHP Warning:  include(../..//include/sidebar/get-side-menus.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:09:52 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/sidebar/get-side-menus.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 34
+[02-Dec-2023 16:09:52 Asia/Calcutta] PHP Warning:  include(../..//include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:09:52 Asia/Calcutta] PHP Warning:  include(): Failed opening '../..//include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\app\settings\attandance-settings.php on line 35
+[02-Dec-2023 16:59:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.systemlogs' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php:22
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php(22): mysqli_query(Object(mysqli), 'INSERT INTO sys...')
+#1 C:\xampp\htdocs\sys\handler\SystemController\ConfigController.php(122): GENERATE_APP_LOGS('FEATURE_UPDATED', '', 'FEATURE_UPDATED')
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php on line 22
+[02-Dec-2023 17:13:17 Asia/Calcutta] PHP Warning:  Undefined array key "CurrentFile" in C:\xampp\htdocs\sys\handler\SystemController\ConfigController.php on line 154

@@ -1,0 +1,324 @@
+[19-Dec-2023 17:42:40 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\sys\auth\logout\index.php on line 4
+[19-Dec-2023 18:40:34 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' testing_table_name VARCHAR(255) NOT NULL, testing_table_description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:81
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(81): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 81
+[19-Dec-2023 18:41:16 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'testing_table' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Checker.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Checker.php(24): mysqli_query(Object(mysqli), 'SHOW TABLES LIK...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(57): CHECK('SHOW TABLES LIK...')
+#2 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Checker.php on line 24
+[19-Dec-2023 18:42:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' name VARCHAR(255) NOT NULL, description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:76
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(76): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 76
+[19-Dec-2023 18:42:57 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' name VARCHAR(255) NOT NULL, description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:76
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(76): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 76
+[19-Dec-2023 18:43:20 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' name VARCHAR(255), description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:76
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(76): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 76
+[19-Dec-2023 18:43:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ', name VARCHAR(255),, description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:76
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(76): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 76
+[19-Dec-2023 18:43:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ', name VARCHAR(255),, description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:76
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(76): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 76
+[19-Dec-2023 18:44:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' name VARCHAR(255),, description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:76
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(76): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 76
+[19-Dec-2023 18:44:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ' name VARCHAR(255),, description TEXT)' at line 1 in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:74
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(74): mysqli_query(Object(mysqli), 'CREATE TABLE te...')
+#1 C:\xampp\htdocs\sys\builder.php(4): CREATE_DB_TABLE('testing_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 74
+[19-Dec-2023 18:47:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'example_table' already exists in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php:81
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php(81): mysqli_query(Object(mysqli), 'CREATE TABLE ex...')
+#1 C:\xampp\htdocs\sys\builder.php(12): CREATE_DB_TABLE('example_table', Array)
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\CreateTables.php on line 81
+[19-Dec-2023 19:02:08 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\sys\auth\logout\index.php on line 4
+[19-Dec-2023 20:06:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:33 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:48 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:06:50 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:07:13 Asia/Calcutta] PHP Warning:  file_get_contents(C:\xampp\htdocs\sys\acm/../MySqlFiles/InitialTables.sql): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 21
+[19-Dec-2023 20:07:13 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Query was empty in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php(24): mysqli->multi_query('')
+#1 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 24
+[19-Dec-2023 20:07:17 Asia/Calcutta] PHP Warning:  file_get_contents(C:\xampp\htdocs\sys\acm/../MySqlFiles/InitialTables.sql): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 21
+[19-Dec-2023 20:07:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Query was empty in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php(24): mysqli->multi_query('')
+#1 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 24
+[19-Dec-2023 20:07:35 Asia/Calcutta] PHP Warning:  file_get_contents(C:\xampp\htdocs\sys\acm/../../MySqlFiles/InitialTables.sql): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 21
+[19-Dec-2023 20:07:35 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Query was empty in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php:24
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php(24): mysqli->multi_query('')
+#1 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 24
+[19-Dec-2023 20:07:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:10:29 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:12:30 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:12:32 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:12:39 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:12:46 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:12:54 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:13:13 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Call to undefined function MSG() in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php:25
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require()
+#1 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 25
+[19-Dec-2023 20:15:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:16:12 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:16:38 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:16:52 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.configurations' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php(12): mysqli_query(Object(mysqli), 'SELECT configur...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(268): CONFIG('DEFAULT_RECORD_...')
+#2 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#3 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(43): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\SysValues.php on line 12
+[19-Dec-2023 20:20:37 Asia/Calcutta] PHP Warning:  Undefined variable $exportedFilePath in C:\xampp\htdocs\sys\acm\SysInitialDBExecutor.php on line 42

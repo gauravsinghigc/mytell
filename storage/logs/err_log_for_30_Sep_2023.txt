@@ -1,0 +1,83 @@
+[30-Sep-2023 17:32:32 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php:298
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(357): listingstartfrom('start')
+#1 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sys\index.php(3): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 298
+[30-Sep-2023 17:33:33 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(335): listingstartfrom('start')
+#1 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sys\index.php(3): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 276
+[30-Sep-2023 17:34:06 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(335): listingstartfrom('start')
+#1 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sys\index.php(3): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 276
+[30-Sep-2023 17:34:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php:276
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(335): listingstartfrom('start')
+#1 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sys\index.php(3): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 276
+[30-Sep-2023 17:34:48 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string * int in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php:277
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(336): listingstartfrom('start')
+#1 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sys\index.php(3): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 277
+[30-Sep-2023 17:35:27 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: int * string in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php:278
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php(337): listingstartfrom('start')
+#1 C:\xampp\htdocs\sys\acm\SystemFileProcessor.php(53): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(40): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\sys\index.php(3): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\HTML_Modules\HTMLFunctions.php on line 278
+[30-Sep-2023 17:35:46 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Undefined constant "LOGIN_UserId" in C:\xampp\htdocs\sys\include\app\Header.php:15
+Stack trace:
+#0 C:\xampp\htdocs\sys\app\profile\index.php(34): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\sys\include\app\Header.php on line 15
+[30-Sep-2023 17:36:17 Asia/Calcutta] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\sys\auth\logout\index.php on line 4
+[30-Sep-2023 17:36:44 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'UserStatus' in 'where clause' in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM u...')
+#2 C:\xampp\htdocs\sys\handler\AuthController\AuthController.php(19): FETCH('SELECT * FROM u...', 'UserId')
+#3 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php on line 12
+[30-Sep-2023 17:37:53 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.users' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Checker.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Checker.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\sys\handler\AuthController\AuthController.php(14): CHECK('SELECT * FROM u...')
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Checker.php on line 12
+[30-Sep-2023 17:45:27 Asia/Calcutta] PHP Warning:  include(../../include/app/Loader.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\sys\auth\login\index.php on line 20
+[30-Sep-2023 17:45:27 Asia/Calcutta] PHP Warning:  include(): Failed opening '../../include/app/Loader.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\sys\auth\login\index.php on line 20
+[30-Sep-2023 17:51:49 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.systemlogs' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php:22
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php(22): mysqli_query(Object(mysqli), 'INSERT INTO sys...')
+#1 C:\xampp\htdocs\sys\handler\AuthController\AuthController.php(42): GENERATE_APP_LOGS('LOGIN_SUCCESS', '', 'LOGIN')
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\ACTIVITY_Modules\AppLogsDB.php on line 22
+[30-Sep-2023 17:55:17 Asia/Calcutta] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'system.user_access' doesn't exist in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php:12
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(12): mysqli_query(Object(mysqli), 'SELECT * FROM u...')
+#1 C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php(26): SELECT('SELECT * FROM u...')
+#2 C:\xampp\htdocs\sys\handler\AuthController\AuthAccessController.php(17): FETCH('SELECT * FROM u...', 'UserAccessName')
+#3 C:\xampp\htdocs\sys\app\index.php(4): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysModules\CRUD_Modules\Select.php on line 12

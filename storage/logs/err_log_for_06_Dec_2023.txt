@@ -1,0 +1,15 @@
+[06-Dec-2023 16:08:25 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\sys\handler\AutoRunner\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\sys\handler\AutoRunner\index.php on line 5
+[06-Dec-2023 16:10:40 Asia/Calcutta] PHP Fatal error:  Uncaught Error: Class "ZipArchive" not found in C:\xampp\htdocs\sys\handler\AutoRunner\index.php:5
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\sys\handler\AutoRunner\index.php on line 5
+[06-Dec-2023 16:43:45 Asia/Calcutta] PHP Fatal error:  Uncaught ValueError: RecursiveDirectoryIterator::__construct(): Argument #1 ($directory) cannot be empty in C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php:75
+Stack trace:
+#0 C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php(75): RecursiveDirectoryIterator->__construct('')
+#1 C:\xampp\htdocs\sys\auth\login\index.php(2): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php on line 75
+[06-Dec-2023 16:44:09 Asia/Calcutta] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\sys\acm\SysFileAutoLoader.php on line 52
